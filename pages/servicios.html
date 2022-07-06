@@ -12,60 +12,71 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid" id="navBar">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navVeremos" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-    </nav>
-    <div class="collapse" id="navVeremos">
-        <div class="bg-dark p-4">
-            <div class="flex ">
-                <img src="../img/logoNutriendote.png" alt="logo" id="logo">
-            </div> 
-            <p></p>
-        
-        <ul id="pagesNombre">
-            <li>
-                <a href="../index.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button" aria-disabled="true">Home</a>
-            </li>
-            <li>
-                <a href="../pages/informacion.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button" aria-disabled="true">Información</a>
-            </li>
-            <li>
-                <a href="../pages/servicios.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button" aria-disabled="true">Servicios</a>
-            </li>
-            <li>
-                <a href="../pages/acercademi.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button" aria-disabled="true">Acerca de mi</a>
-            </li>
-            <li>
-                <a href="../pages/contactarme.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button" aria-disabled="true">Contactarme</a>
-            </li>
-        </ul>
-        </div> 
-    </div>
-
     <header>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <ul id="pagesNombre">
+                    <li>
+                        <a href="../index.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Home</a>
+                    </li>
+                    <li>
+                        <a href="../pages/informacion.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Información</a>
+                    </li>
+                    <li>
+                        <a href="../pages/servicios.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="../pages/acercademi.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Acerca de mi</a>
+                    </li>
+                    <li>
+                        <a href="../pages/contactarme.html" class="btn btn-secondary btn-lg" tabindex="-1" role="button"
+                            aria-disabled="true">Contactarme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="flex ">
+            <img src="../img/logoNutriendote.png" alt="logo" id="logo">
+        </div>
+    </header>
+</header>
     <hr color="beige">
     <main id="planes">
-        <div id="textoServicios">
+        <div class="row" id="textoServicios">
             <p>En esta oportunidad te ofrezco un servicio de calidad y con la mayor intención de llevar a cabo la salud
                 del paciente..</p>
         </div>
-        <div>
-            <div id="plan1">
+        <div class="container">
+            <div class="col-6" id="plan1">
                 <img src="../img/plan1.jpg" alt="#" id="plan1">
                 <label for="">
                     <input type="button" value="Lo quiero">
                 </label>
-
+                <div class="row">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque, ex nisi voluptatem excepturi officia! Consequuntur accusamus quam, cumque facilis, deserunt modi sunt earum accusantium molestias iusto reprehenderit deleniti quasi?</p>
+                </div>
             </div>
-            <div id="plan2">
+            <div class="col-6" id="plan2">
                 <img src="../img/recetario.jpg" alt="recetario">
                 <label for="">
                     <input type="button" value="Lo quiero">
                 </label>
+                <div class="row">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque, ex nisi voluptatem excepturi officia! Consequuntur accusamus quam, cumque facilis, deserunt modi sunt earum accusantium molestias iusto reprehenderit deleniti quasi?</p>
+                </div>
             </div>
 
         </div>

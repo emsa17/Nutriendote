@@ -16,8 +16,6 @@ body {
 
 /* NAV*/
 
-
-
 .navbar>.container-fluid{
     justify-content: flex-end;
 
@@ -33,14 +31,6 @@ div #pagesNombre{
     margin: 0.5rem;
 }
 
-/*
-@media (max-width: 300px){
-   {
-        
-                                               
-    }
-    
-}*/
 /*------------------------------------------------------*/
 
 
@@ -88,18 +78,10 @@ article {
    
 }
 #actualidadTitulo {
+    padding-left: 10rem;
     padding-bottom: 3rem;
     
 }
-
-
-
-
-
-
-
-
-
 
 /*FOOTER--------*/
 
@@ -110,7 +92,31 @@ footer {
 
 
 
+/*INFORMACION--------------*/
 
+
+
+
+
+/*SERVICIOS----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ACERCA DE MI-------------*/
+
+/*CONTACTARME--------------*/
 
 
 
